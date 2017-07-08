@@ -120,7 +120,7 @@ MYIP=$(wget -qO- ipv4.icanhazip.com)
 clear
 echo "" | lolcat
 cat /root/dg-network | lolcat
-echo "            _-_-_[ WELCOME TO VPS DG-NETWORK™ PREMIUM ]_-_-_"| boxes -d dog | lolcat
+echo "            _-_-_-_[ WELCOME TO VPS DG-NETWORK™ PREMIUM ]_-_-_-_" | lolcat
 echo "            ======================================================"| lolcat
 echo "            #          WhatsApp     : 0878 6433 4333             #"| lolcat
 echo "            #          Facebook     : Syamsul Hadi Dahe          #"| lolcat
@@ -148,5 +148,5 @@ echo -e "            \e[032;1mTotal amount of swap:\e[0m $swap MB" | lolcat
 echo -e "            \e[032;1mSystem uptime:\e[0m $up" | lolcat
 echo "_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_" | lolcat
 echo "                   INSTRUCTION !!!
-            Ketik 'menu' lalu tekan ENTER" " boxes -d simple | lolcat
+            Ketik 'menu' lalu tekan ENTER" | boxes -d simple | lolcat
 echo ""
