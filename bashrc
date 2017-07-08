@@ -121,15 +121,15 @@ clear
 echo "" | lolcat
 cat /root/dg-network | lolcat
 echo "            _-_-_-_[ WELCOME TO VPS DG-NETWORK™ PREMIUM ]_-_-_-_" | lolcat
-echo "            ======================================================"| lolcat
-echo "            #          WhatsApp     : 0878 6433 4333             #"| lolcat
-echo "            #          Facebook     : Syamsul Hadi Dahe          #"| lolcat
-echo "            #          E-mail       : nesyamsoel@gmail.com       #"| lolcat
-echo "            #----------------------------------------------------#"| lolcat
-echo "            #             Credit: © SoelHadi_Newbie              #"| lolcat
-echo "            ======================================================"| lolcat
-date +"                          %A, %d-%m-%Y" | lolcat
-date +"                                  %H:%M %Z" | lolcat
+echo "            ====================================================="| lolcat
+echo "            #          WhatsApp     : 0878 6433 4333            #"| lolcat
+echo "            #          Facebook     : Syamsul Hadi Dahe         #"| lolcat
+echo "            #          E-mail       : nesyamsoel@gmail.com      #"| lolcat
+echo "            #---------------------------------------------------#"| lolcat
+echo "            #             Credit: © SoelHadi_Newbie             #"| lolcat
+echo "            ====================================================="| lolcat
+date +"                           %A, %d/%m/%Y" | lolcat
+date +"                                 %H:%M %Z" | lolcat
 echo ""
 echo -e "            IP Host     : $MYIP " | lolcat
 echo ""
