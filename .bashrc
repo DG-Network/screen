@@ -119,23 +119,19 @@ MYIP=$(wget -qO- ipv4.icanhazip.com)
 #echo -e $green' ☠>_________________'
 clear
 echo "" | lolcat
-echo "" | lolcat
-echo "" | lolcat
-echo "            --[ SELAMAT DATANG  DI VPS YUSUF-ARDIANSYAH ]--"| boxes -d dog | lolcat
-echo "            ====================================================="| lolcat
-echo "            #           WhatsApp     : 082139743432             #"| lolcat
-echo "            #           Telegram     : CyberSS                  #"| lolcat
-echo "            #           Facebook     : fb.com/t34mh4ck3r        #"| lolcat
-echo "            #           Pin-BBM      : yu-suf                   #"| lolcat
-echo "            #---------------------------------------------------#"| lolcat
-echo "            #     Silahkan ketik [menu] ENTER untuk pilihan     #"| lolcat
-echo "            #---------------------------------------------------#"| lolcat
-echo "            #    Copyright: © YUSUF-ARDIANSYAH™ Premium 2017    #"| lolcat
-echo "            ====================================================="| lolcat
+cat /root/dg-network | lolcat
+echo "            _-_-_[ WELCOME TO VPS DG-NETWORK™ PREMIUM ]_-_-_"| boxes -d dog | lolcat
+echo "            ======================================================"| lolcat
+echo "            #          WhatsApp     : 0878 6433 4333             #"| lolcat
+echo "            #          Facebook     : Syamsul Hadi Dahe          #"| lolcat
+echo "            #          E-mail       : nesyamsoel@gmail.com       #"| lolcat
+echo "            #----------------------------------------------------#"| lolcat
+echo "            #             Credit: © SoelHadi_Newbie              #"| lolcat
+echo "            ======================================================"| lolcat
 date +"                          %A, %d-%m-%Y" | lolcat
-date +"                                  %H:%M:%S %Z" | lolcat
+date +"                                  %H:%M %Z" | lolcat
 echo ""
-echo -e "            Server - IP: $MYIP " | lolcat
+echo -e "            IP Host     : $MYIP " | lolcat
 echo ""
 	cname=$( awk -F: '/model name/ {name=$2} END {print name}' /proc/cpuinfo )
 	cores=$( awk -F: '/model name/ {core++} END {print core}' /proc/cpuinfo )
@@ -150,5 +146,7 @@ echo -e "            \e[032;1mCPU frequency:\e[0m $freq MHz" | lolcat
 echo -e "            \e[032;1mTotal amount of ram:\e[0m $tram MB" | lolcat
 echo -e "            \e[032;1mTotal amount of swap:\e[0m $swap MB" | lolcat
 echo -e "            \e[032;1mSystem uptime:\e[0m $up" | lolcat
-echo "----------------------------------------------------------------------" | lolcat
+echo "_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_" | lolcat
+echo "                   INSTRUCTION !!!
+            Ketik 'menu' lalu tekan ENTER" " boxes -d simple | lolcat
 echo ""
